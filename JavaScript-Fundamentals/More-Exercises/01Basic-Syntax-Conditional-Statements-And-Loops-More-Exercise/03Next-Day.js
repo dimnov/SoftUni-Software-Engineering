@@ -1,8 +1,9 @@
-function calcNextDay(year, month, day) {
-  var date = new Date(year, month - 1, day);
-  var oneDay = 24 * 60 * 60 * 1000;
-  var nextDate = new Date(date.getTime() + oneDay);
-  console.log(`${nextDate.getFullYear()}-${nextDate.getMonth() + 1}-${nextDate.getDate()}`);
-}
+function nextDay(year, month, day) {
+  let nextDay = new Date(year, month - 1, day + 1);
+  let newYear = nextDay.getFullYear();
+  let newMonth = nextDay.getMonth() + 1;
+  let newDate = nextDay.getDate();
 
-calcNextDay(2016, 9, 20);
+  console.log(`${newYear}-${newMonth}-${newDate}`);
+}
+nextDay(2020, 3, 24)

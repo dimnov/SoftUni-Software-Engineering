@@ -12,7 +12,7 @@
 
 <table>
 
-<tr>
+<tr> 
   <th> JavaScript </th>
 </tr>
 

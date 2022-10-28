@@ -1,4 +1,0 @@
-function travelAgency(input) {
-
-}
-travelAgency([])

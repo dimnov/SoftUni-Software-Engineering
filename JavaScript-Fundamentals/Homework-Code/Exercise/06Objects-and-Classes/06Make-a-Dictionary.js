@@ -1,10 +1,17 @@
 function makeDictionary(input) {
+  let dictionary = {};
 
+  for (let element of input) {
+    let obj = JSON.parse(element);
+    dictionary = Object.assign(dictionary, obj);
+  }
 
-
-
-
-  console.log(`Term: ${term} => Definition: ${definition}`);
+  let sortedKeys = Object.keys(dictionary);
+  sortedKeys.sort((a, b) => a.localeCompare(b));
+  for (let term of sortedKeys) {
+    let def = dictionary[term];
+    console.log(`Term: ${term} => Definition: ${def}`);
+  }
 }
 makeDictionary([
   '{"Coffee":"A hot drink made from the roasted and ground seeds (coffee beans) of a tropical shrub."}',

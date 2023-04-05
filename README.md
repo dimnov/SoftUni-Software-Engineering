@@ -20,8 +20,8 @@
 | --------------------------------------------------------------------- | ---------------------------------------------------------- |
 <a href="https://softuni.bg/trainings/3751/programming-basics-with-javascript-june-2022" > Programming Basics JS </a> | <a href="https://softuni.bg/certificates/details/137449/3b42c97c">Link<a>
 <a href="https://softuni.bg/trainings/3839/programming-fundamentals-with-javascript-september-2022" > Programming Fundamentals JS </a> | <a href="https://softuni.bg/certificates/details/151622/466419dc"> Link</a>
-<a href="https://softuni.bg/trainings/3961/js-advanced-january-2023" > Advanced JS </a> | <a href="https://softuni.bg/certificates/details/160131/ffa3ce63"> Link</a>
-
+<a href="https://softuni.bg/trainings/3961/js-advanced-january-2023" > JS Advanced </a> | <a href="https://softuni.bg/certificates/details/160131/ffa3ce63"> Link</a>
+<a href="https://softuni.bg/trainings/3962/js-applications-february-2023" > JS Applications </a> | <a href="https://softuni.bg/certificates/details/167792/56b02d53"> Link</a>
 
 </td>
 
